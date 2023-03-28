@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import ProfileImage from './../../assets/images/nipun-theekshana.jpg'
+import ProfileImage from '../../assets/images/nipun_theekshana.jpg'
 
 const Profile: React.FC = () => {
 
