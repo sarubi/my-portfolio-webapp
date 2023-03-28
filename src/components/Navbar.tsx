@@ -68,7 +68,9 @@ const NavBar: React.FC = () => {
               👋
             </div>
             <div className='logo-text font-medium'>
-              Nipun Theekshana
+              <Link href="/">
+                Nipun Theekshana
+              </Link>
             </div>
           </div>
 
