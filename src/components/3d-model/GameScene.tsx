@@ -55,7 +55,7 @@ const GameScene = () => {
   return (
     <Canvas
       shadows
-      gl={{ preserveDrawingBuffer: true }}
+      // gl={{ preserveDrawingBuffer: true }}
       style={{ width: '100%', height: '320px' }}>
       <PerspectiveCamera makeDefault position={[3, -1, 5]} />
       <ambientLight intensity={0.5} />
