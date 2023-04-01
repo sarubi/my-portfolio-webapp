@@ -1,4 +1,4 @@
-import { useProgress } from '@react-three/drei';
+import { useProgress, Html } from '@react-three/drei';
 import { useEffect, useState } from 'react';
 const CanvasLoader: React.FC = () => {
   const { progress } = useProgress();
@@ -10,9 +10,12 @@ const CanvasLoader: React.FC = () => {
     }
   }, [progress]);
 
-  return isVisible ? (
-    <div style={{ position: 'absolute', top: '1rem', left: '1rem' }}>Loading: {progress.toFixed(2)}%</div>
-  ) : null;
+  return (
+    <Html>
+      <span className="text-2xl text-gray-500"></span>
+      <p>{progress.toFixed(2)}</p>
+    </Html>
+  )
 }
 
 export default CanvasLoader

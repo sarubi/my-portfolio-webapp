@@ -3,12 +3,16 @@ const ModelCanvas = dynamic(
   () => import('./3d-model/ModelCanvas'),
   { ssr: false }
 )
+const GameScene = dynamic(
+  () => import('./3d-model/GameScene'),
+  { ssr: false }
+)
 const Hero: React.FC = () => {
 
   return (
-    <>
-      <ModelCanvas />
-    </>
+    <div className="hero-section h-[320px]">
+      <GameScene />
+    </div>
   )
 }
 
