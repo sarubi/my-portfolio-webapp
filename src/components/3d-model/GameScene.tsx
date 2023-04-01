@@ -52,7 +52,7 @@ type GLTFResult = GLTF & {
 }
 
 const GameModel = (props: GroupProps) => {
-  const { nodes, materials } = useGLTF('./models/gamer/scene.gltf') as GLTFResult
+  const { nodes, materials } = useGLTF('https://theetaz.s3.amazonaws.com/scene.gltf') as GLTFResult
 
   const modelRef = useRef<any>();
 
@@ -108,7 +108,7 @@ const GameModel = (props: GroupProps) => {
   )
 };
 
-useGLTF.preload('./models/gamer/scene.gltf')
+useGLTF.preload('https://theetaz.s3.amazonaws.com/scene.gltf')
 
 const GameScene = () => {
 
