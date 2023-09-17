@@ -15,29 +15,31 @@ const Profile: React.FC = () => {
         </div>
         <div className="dev-tagline text-[15px]">
           <p>PhD Student 👨‍💻 </p>
-          <p>
-          <div className="social-link-item flex items-center">
+          <p> Saarbrücken, Germany
+          {/* <div className="social-link-item flex items-center">
             <div className="social-link-icon mr-2">
               <LocationIcon width={40} height={40} />
             </div>
             <div className="social-link-name">
             Saarbrücken, Germany
             </div>
-          </div>
+          </div> */}
         
         
          </p>
           <p> 📧 <a className="text-blue-600 hover:underline" href="mailto:stsarut@gmail.com">stsarut@gmail.com</a> </p>
-          <p>          <a className="text-blue-600 hover:underline" href="https://scholar.google.com/citations?hl=en&user=KszUKukAAAAJ" target="_blank" rel="noreferrer">
-          <div className="social-link-item flex items-center">
+          <p>          
+            <a className="text-blue-600 hover:underline" href="https://scholar.google.com/citations?hl=en&user=KszUKukAAAAJ" target="_blank" rel="noreferrer">
+            Sarubi Thillainathan
+          {/* <div className="social-link-item flex items-center"> 
             <div className="social-link-icon mr-2">
               <GoogleScholarIcon width={20} height={20} />
             </div>
             <div className="social-link-name">
              Sarubi Thillainathan
             </div>
-          </div>
-        </a>
+          </div> */}
+        </a> 
 </p>
 
         </div>
