@@ -10,7 +10,7 @@ const Introduction: React.FC = () => {
           text generation. I&apos;m privileged to supervised by{" "} 
           <a
             className="text-blue-600 hover:underline"
-            href="https://www.coli.uni-saarland.de/~koller/"
+            href="https://www.coli.uni-saarland.de/~koller/" target="_blank" rel="noreferrer"
           >
           Prof. Alexander Koller 
           </a>{" "}
@@ -18,8 +18,8 @@ const Introduction: React.FC = () => {
           <a
             className="text-blue-600 hover:underline"
             href={
-              "https://www.uni-saarland.de/lehrstuhl/demberg/members/verademberg.html"
-            }
+              "https://www.uni-saarland.de/lehrstuhl/demberg/members/verademberg.html" 
+            } target="_blank" rel="noreferrer"
           >
           Prof. Vera Demberg
           </a> 
@@ -28,7 +28,7 @@ const Introduction: React.FC = () => {
             className="text-blue-600 hover:underline"
             href={
               "https://sfb1102.uni-saarland.de/projects/adapting-text-generation-to-individual-users/"
-            }
+            } target="_blank" rel="noreferrer"
           >
             A8: Adapting Text Generation to Individual Users 
           </a>  {" "}
@@ -36,7 +36,7 @@ const Introduction: React.FC = () => {
           and Linguistic Encoding (
           <a
             className="text-blue-600 hover:underline"
-            href={"https://sfb1102.uni-saarland.de/"}
+            href={"https://sfb1102.uni-saarland.de/"} target="_blank" rel="noreferrer"
           >
             SFB 1102
           </a>
