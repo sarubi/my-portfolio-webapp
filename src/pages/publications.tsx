@@ -13,7 +13,7 @@ const Publications = () => {
               Sarubi Thillainathan
             </span>
             , Rikki Hung, Anthony Rinaldi, Yining Wang, Jonah Mackey, Andrew Ho,
-            En-Shiun Annie Lee. 2023. <a className="font-serif text-base text-blue-600" href="https://pml4dc.github.io/iclr2023/pdf/PML4DC_ICLR2023_7.pdf"> Leveraging Auxiliary Domain Parallel Data
+            En-Shiun Annie Lee. 2023. <a className="font-serif text-base text-blue-600" href="https://pml4dc.github.io/iclr2023/pdf/PML4DC_ICLR2023_7.pdf"  target="_blank" rel="noreferrer" > Leveraging Auxiliary Domain Parallel Data
             in Intermediate Task Fine-tuning for Low-resource Translation</a>.  In <span className="font-serif text-base italic">
             Practical Machine Learning for Developing Countries (PML4DC)
             workshop, ICLR 2023. </span>
@@ -24,7 +24,7 @@ const Publications = () => {
               Sarubi Thillainathan
             </span>
             , Shravan Nayak, Surangika Ranathunga, David Adelani, Ruisi Su, and
-            Arya McCarthy. 2022. <a className="font-serif text-base text-blue-600 hover:underline" href="https://aclanthology.org/2022.findings-acl.6/"> Pre-Trained Multilingual Sequence-to-Sequence
+            Arya McCarthy. 2022. <a className="font-serif text-base text-blue-600 hover:underline" href="https://aclanthology.org/2022.findings-acl.6/"  target="_blank" rel="noreferrer"> Pre-Trained Multilingual Sequence-to-Sequence
             Models: A Hope for Low-Resource Language Translation?</a>. In <span className="font-serif text-base italic"> Findings
             of the Association for Computational Linguistics: ACL 2022, </span> pages
             58–67, Dublin, Ireland. Association for Computational Linguistics.
@@ -33,7 +33,7 @@ const Publications = () => {
             <span className="font-serif text-base font-bold">
               S. Thillainathan
             </span> 
-            , S. Ranathunga and S. Jayasena. 2021. <a className="font-serif text-base text-blue-600" href="https://ieeexplore.ieee.org/abstract/document/9525720"> Fine-Tuning Self-Supervised
+            , S. Ranathunga and S. Jayasena. 2021. <a className="font-serif text-base text-blue-600" href="https://ieeexplore.ieee.org/abstract/document/9525720"  target="_blank" rel="noreferrer"> Fine-Tuning Self-Supervised
             Multilingual Sequence-To-Sequence Models for Extremely Low-Resource
             NMT</a>. In <span className="font-serif text-base italic"> 2021 Moratuwa Engineering Research Conference (MERCon), </span>
             Moratuwa, Sri Lanka, pp. 432-437, doi:
