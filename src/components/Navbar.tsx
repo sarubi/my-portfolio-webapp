@@ -12,15 +12,15 @@ const NavBar: React.FC = () => {
 
   const navigation = [
     {
-      name: 'Show Room',
-      path: '/show-room',
+      name: 'CV',
+      path: '/cv',
     },
     {
-      name: 'Blog',
-      path: '/blog',
+      name: 'Publications',
+      path: '/publications',
     },
     {
-      name: 'Hire Me',
+      name: 'Contact',
       path: '/contact',
     }
   ]
@@ -69,7 +69,7 @@ const NavBar: React.FC = () => {
             </div>
             <div className='logo-text font-medium'>
               <Link href="/">
-                Nipun Theekshana
+                Sarubi Thillainathan
               </Link>
             </div>
           </div>

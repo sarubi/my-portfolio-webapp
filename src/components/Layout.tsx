@@ -7,7 +7,7 @@ const Layout: React.FC<any> = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Nipun Theekshana | Personal Portfolio</title>
+        <title>Sarubi Thillainathan | Personal Portfolio</title>
       </Head>
       <div className='min-h-screen flex flex-col bg-[#F0E7DB] dark:bg-[#202023]'>
         <NavBar />
