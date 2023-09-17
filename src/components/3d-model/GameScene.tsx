@@ -52,7 +52,7 @@ type GLTFResult = GLTF & {
 }
 
 const GameModel = (props: GroupProps) => {
-  const { nodes, materials } = useGLTF('https://theetaz.s3.amazonaws.com/scene.gltf') as GLTFResult
+  const { nodes, materials } = useGLTF('https://theetaz.s3.amazonaws.com/scene.gltf') as any
 
   const modelRef = useRef<any>();
 

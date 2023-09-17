@@ -15,7 +15,7 @@ const Profile: React.FC = () => {
         </div>
         <div className="dev-tagline text-[15px]">
           <p>PhD Student 👨‍💻 </p>
-          <p> Saarbrücken, Germany
+          <p> 📍 Saarbrücken, Germany
           {/* <div className="social-link-item flex items-center">
             <div className="social-link-icon mr-2">
               <LocationIcon width={40} height={40} />
@@ -28,9 +28,9 @@ const Profile: React.FC = () => {
         
          </p>
           <p> 📧 <a className="text-blue-600 hover:underline" href="mailto:stsarut@gmail.com">stsarut@gmail.com</a> </p>
-          <p>          
+          <p> 🎓 {" "}         
             <a className="text-blue-600 hover:underline" href="https://scholar.google.com/citations?hl=en&user=KszUKukAAAAJ" target="_blank" rel="noreferrer">
-            Sarubi Thillainathan
+             Sarubi Thillainathan
           {/* <div className="social-link-item flex items-center"> 
             <div className="social-link-icon mr-2">
               <GoogleScholarIcon width={20} height={20} />

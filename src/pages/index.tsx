@@ -14,7 +14,7 @@ export default function Home() {
       {/*<Tagline />*/}
       <Profile />
       <Introduction />
-      {/* <ResearchInterest /> */}
+      <ResearchInterest />
       {/*<WorkExperience />*/}
       <Hobbies />
       <SocialLinks />
