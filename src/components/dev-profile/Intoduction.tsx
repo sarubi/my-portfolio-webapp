@@ -1,35 +1,65 @@
 const Introduction: React.FC = () => {
-
   return (
     <div className="introduction mt-[30px]">
-      <div className="title font-medium text-[20px]">
-        👨‍💻 About Me
-      </div>
+      <div className="title font-medium text-[20px]">👨‍💻 About Me</div>
       <div className="work-details text-justify">
-        <p className="indent-12">
-          Hi, {"I'm"} Nipun Theekshana, a skilled Web3 Software Architect from Sri Lanka, passionate about creating innovative software solutions for the future of the internet. My expertise covers designing powerful software systems, ensuring security, and developing modern web applications.
-        </p>
-        <p className="mt-1">
-          {"I'm"} experienced with various programming languages such as Python, Go, JavaScript, TypeScript, PHP, Java, and Kotlin, allowing me to solve complex problems efficiently. My primary focus is on making it easier for people to access and use blockchain data through user-friendly APIs.
+        <div className="indent-0">
+          Hello! I&apos;m Sarubi, a PhD student in Computational Linguistics in the
+          Department of Language Science and Technology at Saarland University,
+          Germany. In my PhD I&apos;m mainly exploring personalised/individualised
+          text generation. I&apos;m privileged to supervised by{" "} 
+          <a
+            className="text-blue-600 hover:underline"
+            href="https://www.coli.uni-saarland.de/~koller/"
+          >
+          Prof. Alexander Koller 
+          </a>{" "}
+          and {" "}
+          <a
+            className="text-blue-600 hover:underline"
+            href={
+              "https://www.uni-saarland.de/lehrstuhl/demberg/members/verademberg.html"
+            }
+          >
+          Prof. Vera Demberg
+          </a> 
+          . I&apos;m working in the {" "}
+          <a
+            className="text-blue-600 hover:underline"
+            href={
+              "https://sfb1102.uni-saarland.de/projects/adapting-text-generation-to-individual-users/"
+            }
+          >
+            A8: Adapting Text Generation to Individual Users 
+          </a>  {" "}
+          project of the Collaborative Research Center on Information Density
+          and Linguistic Encoding (
+          <a
+            className="text-blue-600 hover:underline"
+            href={"https://sfb1102.uni-saarland.de/"}
+          >
+            SFB 1102
+          </a>
+          ).
+        </div>
 
-          As a fan of frontend web development for Web3, I enjoy working with React, Next.js, and Vercel. For backend development, my preferred languages and frameworks are Nest.js with TypeScript and FastAPI with Python.
-        </p>
-        <p className="mt-1">
-          I have a strong background in developing smart contracts for public blockchains and use the Hardhat development environment to create seamless experiences. In short, I can offer all-in-one solutions for your Web3 project, including creating and optimizing smart contracts, developing web applications with wallet connectivity like MetaMask and Trust Wallet, and deploying everything on top-notch services like AWS.
-        </p>
-        <p className="mt-1">
-          If {"you're"} looking for a dedicated and talented developer to bring your Web3 project to life, {"I'm"} your ideal choice. {"Let's"} work together to shape the future of the digital world!
-        </p>
+        <div className="indent-0">
+          In my Masters work with Dr. Surangika Ranathunga and Prof. Sanath
+          Jayasena, I mainly work on adapting sequence-to-sequence pre-trained
+          models using continual pre-training and multi-stage fine-tuning for
+          Low-Resource Language Neural Machine Translation (LRL-NMT). Also
+          contributed to developing a state-of-the-art (Neural) Machine
+          Translation system for the government sector of Sri Lanka.
+        </div>
+
+        <div className="indent-0">
+          I&apos;m interested in Control Text Generation, Large Languages Models and
+          anything in between Neural Machine Translation and Low-resource
+          Languages.
+        </div>
       </div>
-
-      <div className="flex justify-center mt-[30px]">
-        <button className="bg-[#319795] dark:bg-[#81E6D9] py-2 px-5 text-white dark:text-black font-medium rounded-[10px]">
-          My portfolio
-        </button>
-      </div>
-
     </div>
-  )
-}
+  );
+};
 
-export default Introduction
+export default Introduction;

@@ -43,7 +43,7 @@ type GLTFResult = GLTF & {
 
 const RetroComputerModel = (props: GroupProps) => {
   const modelRef = useRef<any>()
-  const { nodes, materials, animations } = useGLTF('./models/retro_computer/scene.gltf') as GLTFResult
+  const { nodes, materials, animations } = useGLTF('./models/retro_computer/scene.gltf') as any
   const speed = 0.2;
 
   // Rotate the model around the Y-axis on every frame

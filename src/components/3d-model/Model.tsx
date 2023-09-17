@@ -11,7 +11,7 @@ type GLTFResult = GLTF & {
 };
 
 const Model = (props: GroupProps) => {
-  const computer = useGLTF('./models/low_poly_dog/scene.gltf') as GLTFResult;
+  const computer = useGLTF('./models/low_poly_dog/scene.gltf') as any;
   const modelRef = useRef<Object3D>();
 
   const speed = 0.5;
