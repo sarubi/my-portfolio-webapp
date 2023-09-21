@@ -45,7 +45,7 @@ const Introduction: React.FC = () => {
 
         <div className="indent-0">
           In my Masters work with Dr. Surangika Ranathunga and Prof. Sanath
-          Jayasena, I mainly work on adapting sequence-to-sequence pre-trained
+          Jayasena, I mainly worked on adapting sequence-to-sequence pre-trained
           models using continual pre-training and multi-stage fine-tuning for
           Low-Resource Language Neural Machine Translation (LRL-NMT). Also
           contributed to developing a state-of-the-art (Neural) Machine
