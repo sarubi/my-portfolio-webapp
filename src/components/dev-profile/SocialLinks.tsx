@@ -3,6 +3,7 @@ import InstagramIcon from "../icons/InstagramIcon"
 import LinkedinIcon from "../icons/LinkedinIcon"
 import GithubIcon from "../icons/GithubIcon"
 import MediumIcon from "../icons/MediumIcon"
+// import DZoneIcon from "../icons/DZoneIcon"
 
 const SocialLinks: React.FC = () => {
 
@@ -21,7 +22,7 @@ const SocialLinks: React.FC = () => {
               <LinkedinIcon width={20} height={20} />
             </div>
             <div className="social-link-name">
-             Sarubi Thillainathan
+             LinkedIn
             </div>
           </div>
         </a>
@@ -32,7 +33,7 @@ const SocialLinks: React.FC = () => {
               <GithubIcon width={20} height={20} />
             </div>
             <div className="social-link-name">
-              @sarubi
+              GitHub
             </div>
           </div>
         </a>
@@ -43,11 +44,32 @@ const SocialLinks: React.FC = () => {
               <TwitterIcon width={20} height={20} />
             </div>
             <div className="social-link-name">
-            @SarubiT
+            Twitter
             </div>
           </div>
         </a>
 
+        <a href="https://medium.com/@sarubi_t" target="_blank" rel="noreferrer">
+          <div className="social-link-item flex items-center">
+            <div className="social-link-icon mr-2">
+              <MediumIcon width={20} height={20} />
+            </div>
+            <div className="social-link-name">
+              Medium
+            </div>
+          </div>
+        </a>
+
+        <a href="https://dzone.com/users/2917459/sarubi.html" target="_blank" rel="noreferrer">
+          <div className="social-link-item flex items-center">
+            <div className="social-link-icon mr-2">
+              <MediumIcon width={20} height={20} />
+            </div>
+            <div className="social-link-name">
+               DZone
+            </div>
+          </div>
+        </a>
 
         <a href="https://www.instagram.com/sarubi_t/" target="_blank" rel="noreferrer">
           <div className="social-link-item flex items-center">
@@ -55,18 +77,7 @@ const SocialLinks: React.FC = () => {
               <InstagramIcon width={20} height={20} />
             </div>
             <div className="social-link-name">
-              @sarubi_t
-            </div>
-          </div>
-        </a>
-
-        <a href="https://medium.com/@stsarut" target="_blank" rel="noreferrer">
-          <div className="social-link-item flex items-center">
-            <div className="social-link-icon mr-2">
-              <MediumIcon width={20} height={20} />
-            </div>
-            <div className="social-link-name">
-              @stsarut
+              Instagram
             </div>
           </div>
         </a>

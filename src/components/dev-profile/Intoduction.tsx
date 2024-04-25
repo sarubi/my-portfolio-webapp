@@ -5,7 +5,7 @@ const Introduction: React.FC = () => {
       <div className="work-details text-justify">
         <div className="indent-0">
           Hello! I&apos;m Sarubi, a PhD student in Computational Linguistics in the
-          Department of Language Science and Technology at Saarland University,
+          Department of Language Science and Technology, Saarland Informatics Campus at Saarland University,
           Germany. In my PhD I&apos;m mainly exploring personalised/individualised
           text generation. I&apos;m privileged to supervised by{" "} 
           <a
