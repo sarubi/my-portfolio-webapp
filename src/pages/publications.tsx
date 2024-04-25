@@ -7,6 +7,16 @@ const Publications = () => {
           Publications
         </div>
         <ul className="list-disc list-inside">
+
+          <li className="font-serif text-base indent-10">
+            Tong Su, Xin Peng,{" "}
+            <span className="font-serif text-base font-bold">
+              Sarubi Thillainathan
+            </span>
+            , David Guzmán, Surangika Ranathunga, and En-Shiun Annie Lee. 2024. <a className="font-serif text-base text-blue-600" href="https://arxiv.org/pdf/2404.04212.pdf"  target="_blank" rel="noreferrer" > Unlocking Parameter-Efficient Fine-Tuning for Low-Resource Language Translation</a>.  In <span className="font-serif text-base italic">
+            Findings of NAACL, 2024. </span>
+          </li>
+
           <li className="font-serif text-base indent-10">
             Shravan Nayak, Surangika Ranathunga,{" "} 
             <span className="font-serif text-base font-bold">

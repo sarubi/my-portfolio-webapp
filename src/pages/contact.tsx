@@ -5,7 +5,7 @@ const Contact = () => {
         <div className="title font-medium text-[20px]">
         Contact
       </div>
-      <p> Email: <a className="text-blue-600 hover:underline" href="mailto:sarubi@coli.uni-saarland.de">sarubi@coli.uni-saarland.de</a> </p>
+      <p> Email: <a className="text-blue-600 hover:underline" href="mailto:sarubi@coli.uni-saarland.de">sarubi (at) coli.uni-saarland.de</a> </p>
       <p>Phone: +49 (681) 302 4177</p> 
       <p>Address: </p>
       <p className="indent-10">Saarland University,</p>
