@@ -12,7 +12,7 @@ const ResearchInterest: React.FC = () => {
             <li>Large Language Models (LLMs)</li>
             <li>Authorship Style Transfer</li>
             <li>Model Merging</li>
-            <li>Reinforcement Learning &amp; Parameter-Efficient Adaptation (LoRA / Adapters)</li>
+            <li>Reinforcement Learning &amp; Parameter-Efficient Adaptation</li>
             <li>Readability &amp; Text Adaptation</li>
             <li>Neural Machine Translation (NMT)</li>
             <li>NLP for Low Resource Languages for example: LRL-NMT </li>
