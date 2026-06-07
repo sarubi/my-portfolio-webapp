@@ -9,11 +9,35 @@ const Publications = () => {
         <ul className="list-disc list-inside">
 
           <li className="font-serif text-base indent-10">
+            <span className="font-serif text-base font-bold">
+              Sarubi Thillainathan
+            </span>
+            , Ji-Ung Lee, Michael Sullivan, and Alexander Koller. 2026. <a className="font-serif text-base text-blue-600 hover:underline" href="https://arxiv.org/abs/2603.23069"  target="_blank" rel="noreferrer" > AuthorMix: Modular Authorship Style Transfer via Layer-wise Adapter Mixing</a>.  <span className="font-serif text-base italic">
+            arXiv preprint arXiv:2603.23069 (under review at ARR). </span>
+          </li>
+
+          <li className="font-serif text-base indent-10">
+            <span className="font-serif text-base font-bold">
+              Sarubi Thillainathan
+            </span>
+            , Margarita Ryzhova, Alexander Koller, and Vera Demberg. 2026. Disentangling Syntactic and Lexical Complexity in Text Adaptation: Effects on Readers with Different Working Memory Capacity and Vocabulary Size.  <span className="font-serif text-base italic">
+            Abstract under review for AMLaP 2026. </span>
+          </li>
+
+          <li className="font-serif text-base indent-10">
+            <span className="font-serif text-base font-bold">
+              Sarubi Thillainathan
+            </span>
+            {" "}and Alexander Koller. 2025. <a className="font-serif text-base text-blue-600 hover:underline" href="https://sfb1102.uni-saarland.de/sfbunisb/uploads/2025/03/Thillainathan2025Controllable.pdf"  target="_blank" rel="noreferrer" > Controllable Text Adaptation Using In-Context Learning with Linguistic Features</a>.  In <span className="font-serif text-base italic">
+            AAAI 2025 Workshop on AI for Education. </span>
+          </li>
+
+          <li className="font-serif text-base indent-10">
             Tong Su, Xin Peng,{" "}
             <span className="font-serif text-base font-bold">
               Sarubi Thillainathan
             </span>
-            , David Guzmán, Surangika Ranathunga, and En-Shiun Annie Lee. 2024. <a className="font-serif text-base text-blue-600" href="https://arxiv.org/pdf/2404.04212.pdf"  target="_blank" rel="noreferrer" > Unlocking Parameter-Efficient Fine-Tuning for Low-Resource Language Translation</a>.  In <span className="font-serif text-base italic">
+            , David Guzmán, Surangika Ranathunga, and En-Shiun Annie Lee. 2024. <a className="font-serif text-base text-blue-600 hover:underline" href="https://aclanthology.org/2024.findings-naacl.263/"  target="_blank" rel="noreferrer" > Unlocking Parameter-Efficient Fine-Tuning for Low-Resource Language Translation</a>.  In <span className="font-serif text-base italic">
             Findings of NAACL, 2024. </span>
           </li>
 

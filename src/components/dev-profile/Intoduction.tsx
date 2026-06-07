@@ -6,8 +6,9 @@ const Introduction: React.FC = () => {
         <div className="indent-0">
           Hello! I&apos;m Sarubi, a PhD student in Computational Linguistics in the
           Department of Language Science and Technology, Saarland Informatics Campus at Saarland University,
-          Germany. In my PhD I&apos;m mainly exploring personalised/individualised
-          text generation. I&apos;m privileged to supervised by{" "} 
+          Germany. In my PhD I work on controllable and personalised text
+          generation and the adaptation of large language models. I&apos;m
+          privileged to be supervised by{" "}
           <a
             className="text-blue-600 hover:underline"
             href="https://www.coli.uni-saarland.de/~koller/" target="_blank" rel="noreferrer"
@@ -44,6 +45,18 @@ const Introduction: React.FC = () => {
         </div>
 
         <div className="indent-0">
+          Recently, I proposed <span className="italic">AuthorMix</span>, a modular
+          authorship style-transfer framework built on <span className="font-medium">model
+          merging</span>, where a target-style model is composed from style-specific
+          components and the merging weights are learned <span className="font-medium">layer-wise</span>{" "}
+          through reinforcement learning. I also develop in-context methods for
+          controllable text adaptation that rewrite text to target reading levels
+          using fine-grained linguistic features, and I run controlled reading
+          studies to steer generation toward individual readers&apos; cognitive
+          profiles.
+        </div>
+
+        <div className="indent-0">
           In my Masters work with Dr. Surangika Ranathunga and Prof. Sanath
           Jayasena, I mainly worked on adapting sequence-to-sequence pre-trained
           models using continual pre-training and multi-stage fine-tuning for
@@ -53,9 +66,22 @@ const Introduction: React.FC = () => {
         </div>
 
         <div className="indent-0">
-          I&apos;m interested in Control Text Generation, Large Languages Models and
-          anything in between Neural Machine Translation and Low-resource
-          Languages.
+          I&apos;m interested in controllable and personalised text generation,
+          authorship style transfer, model merging, and parameter-efficient
+          adaptation of Large Language Models, as well as anything in between
+          Neural Machine Translation and Low-resource Languages.
+        </div>
+
+        <div className="indent-0 mt-[15px] bg-[#F5F0E8] dark:bg-[#313134] p-4 rounded-[10px]">
+          📫 I&apos;m always open to research collaborations, and I&apos;m
+          currently looking for internship opportunities. Feel free to{" "}
+          <a
+            className="text-blue-600 hover:underline"
+            href="mailto:sarubi@lst.uni-saarland.de"
+          >
+            reach out
+          </a>
+          !
         </div>
       </div>
     </div>

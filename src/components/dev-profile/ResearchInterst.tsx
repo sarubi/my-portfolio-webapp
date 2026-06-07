@@ -8,9 +8,12 @@ const ResearchInterest: React.FC = () => {
 
       <ul className="list-disc list-inside indent-10">
             <li>Personalised or Individualised Text Generation</li>
-            <li>Control Text Generation</li>
+            <li>Controllable Text Generation</li>
             <li>Large Language Models (LLMs)</li>
-            <li>Readability</li>
+            <li>Authorship Style Transfer</li>
+            <li>Model Merging</li>
+            <li>Reinforcement Learning &amp; Parameter-Efficient Adaptation (LoRA / Adapters)</li>
+            <li>Readability &amp; Text Adaptation</li>
             <li>Neural Machine Translation (NMT)</li>
             <li>NLP for Low Resource Languages for example: LRL-NMT </li>
             <li>Text Summarization</li>

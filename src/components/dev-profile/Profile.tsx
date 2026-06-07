@@ -27,7 +27,7 @@ const Profile: React.FC = () => {
         
         
          </p>
-          <p> 📧 <a className="text-blue-600 hover:underline" href="mailto:sarubi@coli.uni-saarland.de">sarubi (at) coli.uni-saarland.de</a> </p>
+          <p> 📧 <a className="text-blue-600 hover:underline" href="mailto:sarubi@lst.uni-saarland.de">sarubi (at) lst.uni-saarland.de</a> </p>
           <p> 🎓 {" "}         
             <a className="text-blue-600 hover:underline" href="https://scholar.google.com/citations?hl=en&user=KszUKukAAAAJ" target="_blank" rel="noreferrer">
              Google Scholar
