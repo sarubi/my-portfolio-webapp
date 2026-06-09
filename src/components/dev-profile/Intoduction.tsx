@@ -73,8 +73,7 @@ const Introduction: React.FC = () => {
         </div>
 
         <div className="indent-0 mt-[15px] bg-[#F5F0E8] dark:bg-[#313134] p-4 rounded-[10px]">
-          📫 I&apos;m always open to research collaborations, and I&apos;m
-          currently looking for internship opportunities. Feel free to{" "}
+          📫 I&apos;m always open to research collaborations. Feel free to{" "}
           <a
             className="text-blue-600 hover:underline"
             href="mailto:sarubi@lst.uni-saarland.de"
