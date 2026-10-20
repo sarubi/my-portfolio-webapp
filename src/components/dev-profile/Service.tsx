@@ -24,12 +24,12 @@ const Service: React.FC = () => {
           <div className="bio-item-description">
             <ul className="list-disc list-inside">
               <li>
-                William LaCroix (Master&apos;s thesis: <span className="italic">Precise, Grade-Specific Text Simplification via
+                William LaCroix (Master&apos;s thesis, 2026: <span className="italic">Precise, Grade-Specific Text Simplification via
                 Weighted Adapter Merging for Second Language Acquisition</span>; co-supervised with Prof. Alexander Koller
                 and Dr. Ji-Ung Lee).
               </li>
               <li>
-                Nuwanga Herath and Thisal Tennakoon (Bachelor&apos;s thesis: <span className="italic">Pivot-based Transfer
+                Nuwanga Herath and Thisal Tennakoon (Bachelor&apos;s thesis, 2022: <span className="italic">Pivot-based Transfer
                 Learning on Pre-trained Sequence-to-Sequence Models for Low-Resource Neural Machine Translation</span>;
                 co-supervised with Dr. Surangika Ranathunga).
               </li>

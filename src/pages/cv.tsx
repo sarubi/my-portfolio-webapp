@@ -22,7 +22,7 @@ const CV = () => {
             <div className="title font-medium text-[20px]">
             Curriculum Vitae
             </div>
-            <p className="mb-[10px]">Download my full CV (PDF), or scan the QR code to open it on your phone.</p>
+            <p className="mb-[10px]">Download my full CV, or scan the QR code.</p>
             <a
               className="inline-block bg-[#805ad5] hover:bg-[#6b46c1] text-white font-medium px-4 py-2 rounded-md"
               href={CV_PATH} target="_blank" rel="noreferrer"
