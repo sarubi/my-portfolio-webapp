@@ -3,33 +3,26 @@ const ResearchInterest: React.FC = () => {
   return (
     <div className="research-interest mt-[30px]">
       <div className="title font-medium text-[20px]">
-        👨‍🎓 Research Interests
+        👩‍🎓 Research Interests
       </div>
 
-      <ul className="list-disc list-inside indent-10">
-            <li>Personalised or Individualised Text Generation</li>
-            <li>Controllable Text Generation</li>
-            <li>Large Language Models (LLMs)</li>
-            <li>Authorship Style Transfer</li>
-            <li>Model Merging</li>
-            <li>Reinforcement Learning &amp; Parameter-Efficient Adaptation</li>
-            <li>Readability &amp; Text Adaptation</li>
-            <li>Neural Machine Translation (NMT)</li>
-            <li>NLP for Low Resource Languages for example: LRL-NMT </li>
-            <li>Text Summarization</li>
-            <li>Text Simplification</li>
-        </ul>
-
-      {/* <div className="work-details text-justify">
-        <p className="indent-0"> Personalised or individualised text generation </p>
-        <p className="indent-0"> Control Text Generation </p>
-        <p className="indent-0"> Large Language Models (LLMs) </p>
-        <p className="indent-0"> Readability </p>
-        <p className="indent-0"> Neural Machine Translation (NMT) </p>
-        <p className="indent-0"> NLP for Low Resource Languages for example: LRL-NMT </p>
-        <p className="indent-0"> Text Summarization </p>
-        <p className="indent-0"> Text Simplification </p>
-      </div> */}
+      <ul className="list-disc list-outside pl-[50px] space-y-[4px]">
+        <li>
+          <span className="font-medium">Personalised &amp; Controllable Generation:</span> Reader-adaptive text, style preservation, fine-grained control
+        </li>
+        <li>
+          <span className="font-medium">Efficient Adaptation &amp; Post-Training:</span> Model merging, adapter composition, parameter-efficient fine-tuning (PEFT), reinforcement learning
+        </li>
+        <li>
+          <span className="font-medium">Readability &amp; Cognitive Modeling:</span> Text complexity, cognitive load, syntactic vs. lexical processing
+        </li>
+        <li>
+          <span className="font-medium">Multilingual NLP:</span> Low-resource machine translation, multilingual LLMs, cross-lingual transfer
+        </li>
+        <li>
+          <span className="font-medium">Evaluation:</span> Automatic metrics and human evaluation of generated text
+        </li>
+      </ul>
     </div>
   )
 }

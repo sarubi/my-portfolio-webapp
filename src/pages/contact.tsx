@@ -5,6 +5,7 @@ const Contact = () => {
         <div className="title font-medium text-[20px]">
         Contact
       </div>
+      <p className="mb-[10px]">Feel free to reach out!</p>
       <p> Email: <a className="text-blue-600 hover:underline" href="mailto:sarubi@lst.uni-saarland.de">sarubi (at) lst.uni-saarland.de</a> </p>
       <p>Phone: +49 (681) 302 4177</p> 
       <p>Address: </p>

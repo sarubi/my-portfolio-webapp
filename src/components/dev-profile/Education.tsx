@@ -10,21 +10,24 @@ const Education: React.FC = () => {
         <div className="flex row mb-[5px]">
           <div className="bio-item-time min-w-[110px]">2023 - Now:</div>
           <div className="bio-item-description">
-            PhD Student at Saarland University.
+            PhD in Computational Linguistics, Saarland University, Germany.
+            Dissertation: <span className="italic">Adapting Text Generation to Individual Users</span>.
           </div>
         </div>
 
         <div className="flex row mb-[5px]">
           <div className="bio-item-time min-w-[110px]">2020 - 2022:</div>
           <div className="bio-item-description">
-            Master of Science - Major Component of Research at University of Moratuwa, Katubedda, Sri Lanka.
+            MSc by Research in Computer Science &amp; Engineering, University of Moratuwa, Katubedda, Sri Lanka.
+            Thesis: <span className="italic">Pre-training and fine-tuning multilingual seq-to-seq models for domain-specific low-resource NMT</span>.
           </div>
         </div>
 
           <div className="flex row mb-[5px]">
           <div className="bio-item-time min-w-[110px]">2014 - 2018:</div>
           <div className="bio-item-description">
-          Bachelor of Computer Science (Honors) at University of Ruhuna, Matara, Sri Lanka.
+          Bachelor of Computer Science (Hons), University of Ruhuna, Matara, Sri Lanka.
+          Thesis: <span className="italic">Text Editing with Dynamic Prediction and Spell Checking Using Machine Learning for Sri Lankan Languages</span>.
           </div>
         </div>
 
