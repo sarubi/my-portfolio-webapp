@@ -14,7 +14,7 @@ const SocialLinks: React.FC = () => {
         Find me on
       </div>
 
-      <div className="social-links-details flex-row">
+      <div className="social-links-details grid grid-cols-2 sm:grid-cols-3 gap-x-[20px] gap-y-[8px] mt-[5px]">
 
         <a href="https://www.linkedin.com/in/sarubi-thillainathan-141193a2/" target="_blank" rel="noreferrer">
           <div className="social-link-item flex items-center">
@@ -44,7 +44,7 @@ const SocialLinks: React.FC = () => {
               <TwitterIcon width={20} height={20} />
             </div>
             <div className="social-link-name">
-            Twitter
+            X (Twitter)
             </div>
           </div>
         </a>
